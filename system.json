@@ -1,5 +1,5 @@
 {
-    "name": "weaverdice-gs",
+    "name": "weaverdicegs",
     "title": "Weaverdice",
     "description": "A game system based on the Web Serial 'Worm' by John C. McCrae.",
     "version": "0.1.0",
@@ -12,16 +12,14 @@
       {
         "name": "npcs",
         "label": "NPCs",
-        "system": "weaverdice-gs",
-        "module": "weaverdice-gs",
+        "system": "weaverdicegs",
         "path": "packs/npcs.db",
         "entity": "Actor"
       },
       {
         "name": "items",
         "label": "Items",
-        "system": "weaverdice-gs",
-        "module": "weaverdice-gs",
+        "system": "weaverdicegs",
         "path": "packs/items.db",
         "entity": "Item"
       }
