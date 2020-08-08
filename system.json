@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "author": "Greg Mills",
     "minimumCoreVersion": "0.6.0",
+    "compatibleCoreVersion": "0.6.5",
     "scripts": [],
     "esmodules": ["esmodules/weaverdice.js"],
     "styles": ["styles/weaverdice.css"],
