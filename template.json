@@ -1,0 +1,38 @@
+{
+    "Actor": {
+        "types": ["player", "npc"],
+        "templates": {
+            "common": {
+                "stats" : {
+                    "brawn" : 3,
+                    "athletics" : 3,
+                    "dexterity" : 3,
+                    "wits" : 3,
+                    "social" : 3,
+                    "knowledge" : 3,
+                    "guts" : 3
+                },
+                "resources" : {
+                    "minor-wound-slots": {
+                        "value": 3,
+                        "max": 3
+                    },
+                    "moderate-wound-slots" : {
+                        "value": 3,
+                        "max": 3
+                    },
+                    "armor" : {
+                        "value": 0,
+                        "max": 0
+                    }
+                }
+             }
+        },
+        "player" : {
+            "templates" : ["common"]
+        },
+        "npc" : {
+            "templates" : ["common"]
+        }
+    }
+}
