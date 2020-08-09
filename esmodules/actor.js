@@ -3,7 +3,7 @@
  * for weaverdice later).
  * @extends {Actor}
  */
-export class SimpleActor extends Actor {
+export class WeaverdiceActor extends Actor {
 
     /** @override */
     getRollData() {
